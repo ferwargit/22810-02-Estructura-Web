@@ -4,6 +4,8 @@
 
 body{
     font-family: var(--font-family);
+    width: 1920px;
+    height: 1080px;
 }
 
 h1{
@@ -13,31 +15,33 @@ h1{
 .header{
     background: rgb(59, 120, 234);
     color: white;
-    margin: 10px;
+    margin: 1%;
     padding: 30px 10px 10px 20px;
-    height: 40px;
+    height: 15%;
     font-size: 20px;
     font-weight: bold;
+    position: relative;
 }
 
 nav{
     background: rgb(28, 71, 163);
     color:white;
-    margin: 10px;
-    padding: 10px 10px 10px 20px;
-    height: 20px;
+    margin: 1%;
+    padding: 30px 10px 10px 20px;
+    height: 5%;
     font-size: 20px;
     font-weight: bold;
 }
 
 .box{
-    margin: 0px 10px 0px 10px;
+    margin: 0% 1% 0% 1%;
+    display: flex;
+    height: 50%;
 }
 
 .nav{
     background: turquoise;
     color: white;
-    /* margin: 0px 0px 0px 10px; */
     width: 20%;
 }
 
@@ -47,7 +51,7 @@ nav{
 
 main{
     background: rgb(66, 148, 155);
-    /* margin: 0px 0px 0px 10px; */
+    margin: 0% 1%;
     width: 60%;
 }
 
@@ -93,7 +97,6 @@ main{
 
 .aside3{
     background: gray;
-    /* margin: 0px 0px 0px 10px; */
     width: 20%;
 }
 
@@ -104,9 +107,9 @@ main{
 footer{
     background: rgb(59, 120, 234);
     color: white;
-    margin: 10px;
+    margin: 1%;
     padding: 30px 10px 10px 20px;
-    height: 40px;
     font-size: 20px;
     font-weight: bold;
+    height: 14%;
 }
