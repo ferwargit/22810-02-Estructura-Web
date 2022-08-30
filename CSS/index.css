@@ -118,7 +118,7 @@ main{
     justify-content: center;
 }
 
-.aside1{
+.aside{
     background: rgb(166, 166, 166);
     color: var(--color);
     width: 94%;
